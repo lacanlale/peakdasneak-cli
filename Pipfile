@@ -7,8 +7,9 @@ verify_ssl = true
 
 [packages]
 praw = "*"
-requests = "2.22.0"
-beautifulsoup4 = "4.6.0"
+requests = "*"
+beautifulsoup4 = "*"
+lxml = "*"
 
 [requires]
 python_version = "3.6"
