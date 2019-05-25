@@ -1,8 +1,8 @@
 setup.py
 peakdasneak/__init__.py
 peakdasneak/__main__.py
-peakdasneak/class_module.py
-peakdasneak/funcmodule.py
+peakdasneak/formatter.py
+peakdasneak/scraper.py
 peakdasneak.egg-info/PKG-INFO
 peakdasneak.egg-info/SOURCES.txt
 peakdasneak.egg-info/dependency_links.txt
