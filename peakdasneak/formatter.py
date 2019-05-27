@@ -79,5 +79,5 @@ class Formatter:
         return '\x1b[%sm%s\x1b[0m' % (';'.join(w), string) if w else string 
   
     # output formatted string 
-    def out(self, string): 
-        print(self.format(string))
+    def out(self, string, ending='\n'): 
+        print(self.format(string), end=ending)
