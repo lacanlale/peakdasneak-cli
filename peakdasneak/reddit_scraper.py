@@ -57,10 +57,12 @@ class Reddit_Scraper:
         urls : dict
             Url of corresponding post
         """
+        path = os.path.realpath(__file__)
+        path = "/".join(path.split('/')[:-1])
         urls = {}
         posts = []
-        clf = load('model.joblib')
-        ngram_vectorizer = load('ngram_vectorizer.joblib')
+        clf = load(f'{path}/model.joblib')
+        ngram_vectorizer = load(f'{path}/ngram_vectorizer.joblib')
         
         counter = 1
         sub = self.reddit.subreddit(subreddit)
